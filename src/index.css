@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "yeongdeok-sea";
+    src: url("../public/fonts/Yeongdeok-Sea.ttf");
+  }
+
+  .font_large {
+    font-size: 26px;
+  }
+  
+  .font_small {
+    font-size: 16px;
+  }

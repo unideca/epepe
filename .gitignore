@@ -1,0 +1,51 @@
+# Node modules 디렉토리 (필수)
+node_modules/
+
+# 빌드 결과물 디렉토리
+build/
+dist/
+out/
+
+# TypeScript 컴파일 결과물
+*.tsbuildinfo
+
+# 환경 변수 파일 (API 키나 비밀번호 등이 포함될 수 있음)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 운영체제 또는 IDE 관련 파일
+.DS_Store          # macOS
+Thumbs.db          # Windows
+.vscode/           # Visual Studio Code 설정
+.idea/             # WebStorm 등 IntelliJ 관련 설정
+*.swp              # Vim swap 파일
+
+# 테스트 커버리지 결과물
+coverage/
+
+# eslint cache
+.eslintcache
+
+# npm과 yarn lock 파일 (특정 환경에서는 사용하지 않을 수도 있습니다)
+# yarn.lock
+# package-lock.json
+
+# Storybook 설정 파일 및 빌드 디렉토리 (스토리북 사용 시)
+storybook-static/
+
+# Parcel cache (Parcel 사용 시)
+.cache/
+.parcel-cache/
+
+# 특정 프레임워크 관련
+.next/             # Next.js 사용 시
+.nuxt/             # Nuxt.js 사용 시
+.svelte-kit/       # SvelteKit 사용 시
