@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import {
   type Container,
-  MoveDirection,
-  OutMode,
 } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim"; 
 import { BeatLoader } from "react-spinners";
