@@ -8,7 +8,7 @@ interface AboutProps {
     language : string;
 }
 
-const TokenAllocation : FC<AboutProps> = ({isRender, tokenExInVariants, language}) => {
+const TokenAllocation : FC<AboutProps> = ({isRender, tokenExInVariants}) => {
 
     const tokenMidAnimation = useAnimation();
 
