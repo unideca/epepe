@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, GridItem, Image, Img, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Grid, GridItem, Image, Img, Text } from "@chakra-ui/react";
 import { FC, useEffect } from "react";
 import serviceTopKR from "../data/servicesTopKR.json"
 import serviceBottomKR from "../data/servicesBottomKR.json"
@@ -144,6 +144,12 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
           <Text color="#333333" mb={4} h="72px">
             After downloading, you can configure your wallet according to our guide.
           </Text>
+          <Button 
+          bg="#FFD700"
+          as="a" //down
+          href="/documents/guide.pdf" //down
+          download="guide.pdf" // 다운로드 속성 추가
+          >Guide</Button>
         </GridItem>
         <GridItem textAlign="center" bg="#FFF7E0" p={8} borderRadius="md">
           <Text
