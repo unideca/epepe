@@ -169,9 +169,9 @@ const App = () => {
         alignItems: "center", 
         width: "100%", 
         height: "100vh", 
-        backgroundColor: "#0C0E27", 
+        backgroundColor: "#F7F9FC", 
       }}>
-        <BeatLoader size={20} color={"#ffffff"} />
+        <BeatLoader size={20} color={"black"} />
       </div>
     );
   }

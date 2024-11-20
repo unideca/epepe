@@ -16,10 +16,10 @@ const Contact: FC = () => {
                 Contact Information
             </Text>
             <Flex flexDir="column" alignItems="center" fontSize={["12px","12px","12px","16px","16px","16px","16px"]} lineHeight="1.8">
-                <Text>Email: official@gptbitcoin.com</Text>
+                <Text>Email: official@earthpepe.com</Text>
             </Flex>
             <Text fontSize="12px" mt={28}>
-                Copyright © XYZ Corporation 2024 All Rights Reserved.
+                Copyright © XZ Corporation 2024 All Rights Reserved.
             </Text>
         </Flex>
     );

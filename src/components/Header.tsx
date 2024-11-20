@@ -105,8 +105,8 @@ const Header : FC<HeaderProps> = ({tokenHomeRef, tokenServiceRef, tokenAboutRef,
                     borderRadius="24px"
                     overflow="hidden"
                     as="a" //down
-                    href="/documents/GPT BITCOIN whitepaper ver 1.0_eng.pdf" //down
-                    download="GPT BITCOIN whitepaper ver 1.0_eng.pdf" // 다운로드 속성 추가
+                    href="/documents/EarthPepe_Whitepaper_eng.pdf" //down
+                    download="EarthPepe_Whitepaper_eng.pdf" // 다운로드 속성 추가
                     _hover= {{
                         backgroundColor : "#0C0E27",
                         _before : {
@@ -151,20 +151,20 @@ const Header : FC<HeaderProps> = ({tokenHomeRef, tokenServiceRef, tokenAboutRef,
                     variant='outline'
                     color="#333333"
             />
-            <MenuList bgColor="#0C0E27">
-                <MenuItem onClick={() => {setButtonText("SERVICES")}} bgColor="#0C0E27" color="#333333">
+            <MenuList bgColor="#F7F9FC">
+                <MenuItem onClick={() => {setButtonText("SERVICES")}} bgColor="#F7F9FC" color="black">
                     SERVICES
                 </MenuItem>
-                <MenuItem onClick={() => {setButtonText("ABOUT")}} bgColor="#0C0E27" color="#333333">
+                <MenuItem onClick={() => {setButtonText("ABOUT")}} bgColor="#F7F9FC" color="black">
                     ABOUT
                 </MenuItem>
-                <MenuItem onClick={() => {setButtonText("TOKEN")}} bgColor="#0C0E27" color="#333333">
+                <MenuItem onClick={() => {setButtonText("TOKEN")}} bgColor="#F7F9FC" color="black">
                     TOKEN
                 </MenuItem>
-                <MenuItem onClick={() => {setButtonText("ROADMAP")}} bgColor="#0C0E27" color="#333333">
+                <MenuItem onClick={() => {setButtonText("ROADMAP")}} bgColor="#F7F9FC" color="black">
                     ROADMAP
                 </MenuItem>
-                <MenuItem onClick={() => {setButtonText("CONTACT")}} bgColor="#0C0E27" color="#333333">
+                <MenuItem onClick={() => {setButtonText("CONTACT")}} bgColor="#F7F9FC" color="black">
                     CONTACT
                 </MenuItem>
             </MenuList>
