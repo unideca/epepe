@@ -14,7 +14,7 @@ const TokenEx : FC<TokenExProps> = () => {
         <>
         <Flex w="full" minH="70vh" alignItems="center"> 
             <Flex mx="auto" mt={56}>
-                <Flex ml={4} alignItems="center">                  
+                <Flex pl={8} alignItems="center">                  
                     <Flex w="full" justifyContent="center">
                         <Flex flexDir="column" justifyContent="center" alignItems="center">
                         <MotionImg
