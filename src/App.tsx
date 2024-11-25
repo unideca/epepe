@@ -169,7 +169,7 @@ const App = () => {
         alignItems: "center", 
         width: "100%", 
         height: "100vh", 
-        backgroundColor: "#F7F9FC", 
+        backgroundColor: "#4C9540", 
       }}>
         <BeatLoader size={20} color={"black"} />
       </div>
@@ -191,7 +191,7 @@ const App = () => {
           interactivity: {
             events: {
               onClick: { enable: true, mode: "bubble" },
-              onHover: { enable: true, mode: "grab" },
+              onHover: { enable: false, mode: "grab" },
             },
             modes: {
               bubble: { distance: 250, duration: 2, size: 10, opacity: 0.8 },
@@ -201,11 +201,7 @@ const App = () => {
           particles: {
             color: { value: ["#ff9f43", "#2ecc71", "#3498db", "#9b59b6", "#e74c3c"] }, // 다채로운 색상
             links: {
-              color: "#cccccc",
-              distance: 120,
-              enable: true,
-              opacity: 0.5,
-              width: 1,
+              enable : false
             },
             move: {
               direction: "none",
