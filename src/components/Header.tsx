@@ -72,7 +72,7 @@ const Header : FC<HeaderProps> = ({tokenHomeRef, tokenServiceRef, tokenAboutRef,
             py="25px"
             h={isScrolled ? "80px" : "110px"}
             transition="height 0.8s ease, background-color 0.8s ease" //height 속성값 변화할 때 transition 적용
-            bgColor={isScrolled ? "#F1C40F" : "transparent"}
+            bgColor={isScrolled ? "#275D38" : "transparent"}
             alignItems="center"
             justifyContent="space-between"
             zIndex={4} // 아래로 넘어갈 때 글자 안보임
@@ -81,7 +81,7 @@ const Header : FC<HeaderProps> = ({tokenHomeRef, tokenServiceRef, tokenAboutRef,
             as="a"
             href="/" >
                 <Img w="80px" src="images/epepe.png" zIndex={4}/>
-                <Text w="160px" fontSize="24px" position="absolute" left="92px" top="20px">EarthPepe</Text>
+                <Text w="160px" fontSize="24px" position="absolute" left="92px" top="20px" color="white">EarthPepe</Text>
             </Flex>
             <Flex h="6vh" justifyContent="center" alignItems="center">
                 <Flex gap={["16px","16px","16px","16px","16px","20px","20px"]}>

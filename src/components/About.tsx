@@ -44,7 +44,7 @@ const About : FC<AboutProps> = ({isRender, tokenExInVariants}) => {
             flexDir="column"
             alignItems="center"
         >
-            <Text fontSize="26px" mb={24}>
+            <Text fontSize="26px" mb={24} color="white">
                 About EPEPE
             </Text>
             <motion.div
@@ -56,7 +56,7 @@ const About : FC<AboutProps> = ({isRender, tokenExInVariants}) => {
                     <Flex justifyContent="center">
                         <Img w="300px" src="images/epepeAbout.png"/>
                     </Flex>
-                    <Flex flexDir="column" justifyContent="center" alignItems="center">
+                    <Flex flexDir="column" justifyContent="center" alignItems="center" color="white">
                         <Text fontSize="18px">The EarthPepe project is an innovative blockchain initiative that combines community-driven Meme Economy  technology with meme-powered blockchain to present a new paradigm in meme coin management and  trading. Although cryptocurrency and meme-powered blockchain have undergone significant  advancements, several fundamental limitations still exist.
                         </Text>
                         {/* <Button

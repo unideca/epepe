@@ -89,7 +89,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants}
         >
           <Box textAlign="center" p={10}>
         {/* 제목 */}
-        <Text fontSize="36px" fontWeight="bold" mb={8}>
+        <Text fontSize="36px" fontWeight="bold" mb={8} color="white">
           Getting Started
         </Text>
         

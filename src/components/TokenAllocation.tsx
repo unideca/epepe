@@ -46,7 +46,7 @@ const TokenAllocation : FC<AboutProps> = ({isRender, tokenExInVariants}) => {
             flexDir="column"
             alignItems="center"
         >
-            <Text fontSize="26px" mb={20} textAlign="center">
+            <Text fontSize="26px" mb={20} textAlign="center" color="white">
                 TOKEN DISTRIBUTION PROCEEDS
             </Text>
             <motion.div
@@ -54,7 +54,7 @@ const TokenAllocation : FC<AboutProps> = ({isRender, tokenExInVariants}) => {
             animate={tokenMidAnimation}
             variants={tokenExInVariants}
             >
-                <Flex w={["330px","330px","780px","1100px","1100px","1100px","1100px"]} mx="auto" gap={12} id="tokenMid" justifyContent="center" flexDir="column" alignItems="center">
+                <Flex w={["330px","330px","780px","1100px","1100px","1100px","1100px"]} mx="auto" gap={12} id="tokenMid" justifyContent="center" flexDir="column" alignItems="center" color="white">
                     <Img w={["330px","330px","400px","400px","400px","400px","400px"]} src="images/distribution.png"/>
                     <Flex w={["340px","400px","480px","560px","560px","560px","560px"]} justifyContent="space-between">
                         <Flex flexDir="column" fontSize={["12px","12px","16px","16px","16px","16px","16px"]}>

@@ -19,7 +19,7 @@ const StyledButton: FC<StyledButtonProps> = ({
     <Button
         fontSize={["13px", "13px", "13px", "14px", "15px", "15px", "15px"]}
         variant="unstyled"
-        color="#333333" // 기본 텍스트 색상
+        color="white" // 기본 텍스트 색상
         position="relative"
         onClick={() => {
           setButtonText(v);

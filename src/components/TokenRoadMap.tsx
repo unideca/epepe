@@ -36,7 +36,7 @@ const TokenRoadMap: FC<AboutProps> = ({ isRender, tokenExInVariants }) => {
     }, [isRender]);
 
     const roadmapItems = [
-        { quarter: "Q1, Q2 2025", details: ["Project design and team formation", "Blockchain platform design and development", "Building a community and user base", "Securing investors and partners"], bg: "#F1C40F"},
+        { quarter: "Q1, Q2 2025", details: ["Project design and team formation", "Blockchain platform design and development", "Building a community and user base", "Securing investors and partners"], bg: "#275D38"},
         { quarter: "Q3, Q4 2025", details: ["Prototype launch and testing", "Deployment of the initial version of the GPT BITCOIN platform", "Strengthening regulatory and legal compliance", "Optimization of smart contracts and transactions using GPT technology"]},
         { quarter: "2026", details: ["Technical and functional improvements", "Enhancing platform stability and security", "Advancing and expanding the automation capabilities of smart contracts", "Adding multilingual support and various currency functions"] },
         { quarter: "2027", details: ["Reforming the governance system to enhance community decision-making participation", "Optimization through the integration of AI and blockchain technology and introduction of new service models", "Implementation of fully automated transaction systems through smart contracts", "Global marketing and user expansion"] },
@@ -58,7 +58,7 @@ const TokenRoadMap: FC<AboutProps> = ({ isRender, tokenExInVariants }) => {
         <Flex
             w="100%"
             minH="70vh"
-            color="#333333"
+            color="white"
             pt={32}
             zIndex={2}
             flexDir="column"

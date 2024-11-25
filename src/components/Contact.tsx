@@ -6,7 +6,7 @@ const Contact: FC = () => {
         <Flex
             w="100%"
             minH="60vh"
-            color="#333333"
+            color="white"
             pt={72}
             zIndex={2}
             flexDir="column"
