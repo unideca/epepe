@@ -37,7 +37,7 @@ const TokenRoadMap: FC<AboutProps> = ({ isRender, tokenExInVariants }) => {
 
     const roadmapItems = [
         { quarter: "Q1, Q2 2025", details: ["Project design and team formation", "Blockchain platform design and development", "Building a community and user base", "Securing investors and partners"], bg: "#275D38"},
-        { quarter: "Q3, Q4 2025", details: ["Prototype launch and testing", "Deployment of the initial version of the GPT BITCOIN platform", "Strengthening regulatory and legal compliance", "Optimization of smart contracts and transactions using GPT technology"]},
+        { quarter: "Q3, Q4 2025", details: ["Prototype launch and testing", "Deployment of the initial version of the platform", "Strengthening regulatory and legal compliance", "Optimization of smart contracts and transactions using GPT technology"]},
         { quarter: "2026", details: ["Technical and functional improvements", "Enhancing platform stability and security", "Advancing and expanding the automation capabilities of smart contracts", "Adding multilingual support and various currency functions"] },
         { quarter: "2027", details: ["Reforming the governance system to enhance community decision-making participation", "Optimization through the integration of AI and blockchain technology and introduction of new service models", "Implementation of fully automated transaction systems through smart contracts", "Global marketing and user expansion"] },
         { quarter: "2028 ~", details: ["Policy adjustments and feedback collection in line with global market changes", "Provision of market forecasts and automated investment strategies using AI technology", "Appropriate response to regulatory changes in various countries", "Investor protection and provision of sustainable financial services"] },
@@ -98,7 +98,6 @@ const TokenRoadMap: FC<AboutProps> = ({ isRender, tokenExInVariants }) => {
                                     bg="transparent"
                                     color="#333333"
                                     fontSize="24px"
-                                    _hover={{ bg: "gray.700" }}
                                     aria-label="Previous"
                                     
                                 />
@@ -134,7 +133,6 @@ const TokenRoadMap: FC<AboutProps> = ({ isRender, tokenExInVariants }) => {
                                     bg="transparent"
                                     fontSize="24px"
                                     color="#333333"
-                                    _hover={{ bg: "gray.700" }}
                                     aria-label="Next"
                                 />
                             </>
